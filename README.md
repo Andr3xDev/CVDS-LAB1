@@ -47,6 +47,9 @@ la primera parte del laboratorio:
 - Realizar el commit para guardar los cambios de forma local.
 - Subir el commit con los cambios al repositorio remoto con `git push`.
 
+> [!NOTE]
+> En Git, los cambios pasan por tres áreas: el directorio de trabajo, el área de preparación (staging area) y el repositorio. git add mueve los cambios desde el directorio de trabajo al área de preparación, permitiéndote elegir qué se incluirá en el próximo commit. Luego, git commit toma los cambios del área de preparación y los guarda de forma permanente en el repositorio, junto con un mensaje que describe las modificaciones realizadas.
+
 ![a](/Assets/clone.png)
 ![a](/Assets/comands.png)
 
@@ -54,14 +57,18 @@ De otro modo, hubiera tenido que usar los siguientes comandos para poder validar
 la plataforma que se esté usando para el repositorio remoto:
 - `git config --global user.name "Tu Nombre"`
 - `git config --global user.email "tu_correo@example.com"`
-Donde el global es opcional, pues sin este solo se añaden las credenciales en el repositorio local.
+Donde el global es opcional, pues sin este solo se añaden las credenciales en el repositorio local. Ademas, el correo que se ponga tiene que estar vinculado con la cuenta de git.
+para ello se configura en las configuraciones de la cuenta de git. Para mas info esta la siguiente guia https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account.
 
-Finalmente, se da por culminada la primera parte del laboratorio con este documento en sus primeras instancias y repitiendo el proceso para añadir  la carpeta que alberga las imágenes.
+Finalmente, se da por culminada la primera parte del laboratorio con este documento en sus primeras instancias y repitiendo el proceso para añadir la carpeta que alberga las imágenes.
 
 </br>
 
 <!-- GETTING STARTED -->
 ## Parte en parejas
+
+> [!IMPORTANT]
+> Esta parte se reealizo con mi compañera X
 
 This
 
