@@ -85,6 +85,8 @@ Finalmente, se da por culminada la primera parte del laboratorio con este docume
 
 Para esta parte se nos pidió generar conflictos al momento de subir algo al repositorio, con la intención de darles solución de forma manual y con ayuda de un IDE o editor de código que contara con las herramientas necesarias para el manejo de Git. Adicionalmente, se buscó que exploráramos y experimentáramos con las ramas del repositorio desde su creación, unificación y eliminación. 
 
+</br>
+
 ## Contact
 
 Andrés Felipe Chavarro Plazas -- andres.chavarro-p@mail.escuelaing.edu.co
