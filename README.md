@@ -88,4 +88,5 @@ Para esta parte se nos pidió generar conflictos al momento de subir algo al rep
 ## Contact
 
 Andrés Felipe Chavarro Plazas -- andres.chavarro-p@mail.escuelaing.edu.co
+
 Nicole Dayan Calderón Arévalo -- nicole.calderon-a@mail.escuelaing.edu.co
