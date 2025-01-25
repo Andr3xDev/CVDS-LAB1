@@ -31,8 +31,9 @@ Para comenzar, esta parte tiene como objetivo aprender los comandos básicos de 
 En primer lugar, vamos a crear un repositorio remoto en GitHub, para ello se selecciona la respectiva opción que nos manda a la pantalla
 donde crearemos un repo completamente vacío, tal como se ve la siguiente imagen.
 
-![a](/Assets/create.png)
-
+<p align="center">
+  <img src="/Assets/create.png" alt="a">
+</p>
 
 ### 2. Subida de archivos
 Tras la creación, se nos da una serie de pasos sugeridos para realizar la conexión del repositorio remoto a uno local, donde podemos 
@@ -44,7 +45,9 @@ ver las siguientes opciones:
   creamos mediante el comando `git remote add`, de modo que al realizar un push se actualiza el repositorio remoto. También, se puede
   Únicamente generar y subir la rama principal al repositorio y de igual forma quedaría vinculado.
 
-![a](/Assets/init.png)
+<p align="center">
+  <img src="/Assets/init.png" alt="a">
+</p>
 
 En mi caso, mi computadora ya tenía las credenciales configuradas con anterioridad, por lo que conjunto a una clave SSH fue posible 
 clonar el repositorio y manipularlo sin ningún tipo de restricción. De este modo se realizaron las siguientes acciones para completar
@@ -56,8 +59,12 @@ la primera parte del laboratorio:
 - Realizar el commit para guardar los cambios de forma local.
 - Subir el commit con los cambios al repositorio remoto con `git push`.
 
-![a](/Assets/clone.png)
-![a](/Assets/comands.png)
+<p align="center">
+  <img src="/Assets/clone.png" alt="a">
+</p>
+<p align="center">
+  <img src="/Assets/comands.png" alt="a">
+</p>
 
 ### 3. Comandos git
 En Git, los cambios pasan por tres áreas: el directorio de trabajo, el área de preparación (staging area) y el repositorio. `git add` mueve los cambios desde el directorio de trabajo al área de preparación, permitiéndote elegir qué se incluirá en el próximo commit. Luego, `git commit` toma los cambios del área de preparación y los guarda de forma permanente en el repositorio, junto con un mensaje que describe las modificaciones realizadas con `-m "Mensaje"` seguido a lo anterior. Posteriormente, se usa `git push` para subir los cambios al repositorio remoto.
@@ -70,8 +77,15 @@ la plataforma que se esté usando para el repositorio remoto:
 - `git config --global user.email "tu_correo@example.com"`.
 
 Donde el global es opcional, pues sin este solo se añaden las credenciales en el repositorio local. Ademas, el correo que se ponga tiene que estar vinculado con la cuenta de git.
-para ello se configura en las configuraciones de la cuenta de git. Para mas info esta la siguiente guia https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account.
-![image](https://github.com/user-attachments/assets/18f3900a-75ce-42d4-b73d-cd37a465f3d2)
+para ello se configura en las configuraciones de la cuenta de git.
+
+> [!NOTE]
+> Para mas info esta la siguiente guia https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account.
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/18f3900a-75ce-42d4-b73d-cd37a465f3d2" alt="image">
+</p>
 
 Finalmente, se da por culminada la primera parte del laboratorio con este documento en sus primeras instancias y repitiendo el proceso para añadir la carpeta que alberga las imágenes.
 
